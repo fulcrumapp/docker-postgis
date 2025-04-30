@@ -10,7 +10,7 @@ build:
   - image: 280296955917.dkr.ecr.us-east-2.amazonaws.com/postgis
     kaniko:
       cache: {}
-      dockerfile: 15-3.4/Dockerfile
+      dockerfile: 17-3.5/Dockerfile
       useNewRun: false
       reproducible: true
       snapshotMode: redo
